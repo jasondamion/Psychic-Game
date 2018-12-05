@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guess</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <img src="./assets/images/BlackP.jpg" id="bg" alt="">
+
+<div class = "container">
+
+    <div class = "row">
+
+         <div class = "column col-md 1">
+
+          <h1>Guess the letter!</h1>
+          <br>
+          <h1>Cinga u nobumba (Xhosa)</h1>
+          <br>
+          <h1>Guess what letter T'challa is thinking of</h1>
+
+         </div>
+
+    </div>
+<br>
+    <div class = "row">
+
+        <div class = "column col-md 1">
+
+            <h2>How to win: </h2>
+            <p>You have to type and guess the letter</p>
+            <p>If the letter is wrong, you lose a guess</p>
+            <p>If the letter is right, you will get a win</p>
+            <p>Keep the letters lowercase</p>
+           </div>
+
+        
+        <div class = "column col-md 1">
+        
+        <h2>Wins: </h2>
+        <h3 id = "countWin">0</h3>
+        <h2>Losses: </h2>
+        <h3 id = "countloss">0</h3>
+        <h2>Guesses left: </h2>
+        <h3 id = "countGuessL">3</h3>
+        <h2>Guesses so far: </h2>
+        <h3 id = "countGuessF"> </h3>
+    
+        
+        
+
+            
+         </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
